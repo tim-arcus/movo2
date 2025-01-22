@@ -3,7 +3,7 @@ services:
 - type: web
   name: ovomodloaderthing2
   runtime: node
-  repo: tim-arcus/movo2
+  repo: https://github.com/tim-arcus/movo2
   plan: free
   region: oregon
   buildCommand: npm i
